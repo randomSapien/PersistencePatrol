@@ -100,7 +100,7 @@ By monitoring **schtasks.exe**, this script helps detect malicious persistence m
 ---
 
 ## **Improvements to be made**
-- **Monitor Schduled task creation also via event ID 4698** (e.g., email or log forwarding to SIEM)
+- **Monitor Schduled task creation also via event ID 4698**
 - **Monitor Additional Persistence Methods** beyond schtasks.exe
 
 This script serves as an example tool in identifying malware trying to achieve persistance using Windows Scheduled Tasks. 🚀
