@@ -69,7 +69,7 @@ This script continuously monitors **Windows Event Logs** for **process creation 
 ## **Running the Script**
 
 ### **Prerequisites:**
-Enable moniroting of Process creation in Windows Event Logs:
+Enable monitoring of Process creation in Windows Event Logs:
 ```
 auditpol /set /subcategory:"Process Creation" /success:enable /failure:enable
 ```
